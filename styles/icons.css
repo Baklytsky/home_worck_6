@@ -3,17 +3,17 @@
 @font-face {
   font-family: "untitled-font-1";
   src:url("../fonts/icon/untitled-font-1.eot");
-  src:url("../fonts/icon/fonts/untitled-font-1.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/icon/fonts/untitled-font-1.woff") format("woff"),
-    url("../fonts/icon/fonts/untitled-font-1.ttf") format("truetype"),
-    url("../fonts/icon/fonts/untitled-font-1.svg#untitled-font-1") format("svg");
+  src:url("../fonts/icon/untitled-font-1.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/icon/untitled-font-1.woff") format("woff"),
+    url("../fonts/icon/untitled-font-1.ttf") format("truetype"),
+    url("../fonts/icon/untitled-font-1.svg#untitled-font-1") format("svg");
   font-weight: normal;
   font-style: normal;
 
 }
 
 [data-icon]:before {
-  font-family: "untitled-font-1", serif !important;
+  font-family: "untitled-font-1" !important;
   content: attr(data-icon);
   font-style: normal !important;
   font-weight: normal !important;
@@ -27,7 +27,7 @@
 
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
-  font-family: "untitled-font-1" serif !important;
+  font-family: "untitled-font-1" !important;
   font-style: normal !important;
   font-weight: normal !important;
   font-variant: normal !important;
@@ -47,9 +47,6 @@
 .icon-settings-streamline-1:before {
   content: "\6c";
 }
-.icon-chevron-circle-down:before {
-  content: "\64";
-}
 .icon-twitter:before {
   content: "\65";
 }
@@ -65,3 +62,19 @@
 .icon-instagrem:before {
   content: "\6b";
 }
+.icon-down-open:before {
+  content: "\61";
+}
+.explore-button {
+  width: 60px;
+  height: 60px;
+  font-size: 2.5em;
+  color: #FFF;
+  border-radius: 100%;
+  background-color: #2ECC71;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+

@@ -18,5 +18,4 @@ textarea                       { vertical-align:top; }
 input[type=submit]             { cursor:pointer; }
 img, fieldset                  { border:0; }
 table                          { border-collapse:collapse; border-spacing:0; }
-a:link, a:visited              { font:16px Droid Sans, Calibri, Tahoma, sans-serif; color:#333; text-decoration:none; }
-a:hover                        { text-decoration:underline; }
+a                              {  text-decoration: none;}

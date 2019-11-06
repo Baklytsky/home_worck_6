@@ -57,27 +57,105 @@ video {
 }
 .video-title {
     max-width: 850px;
-    font-size: 80px;
-    font-weight: 700;
-    text-align: center;
-    color: #FFF;
     position: absolute;
     top: 40%;
     right: 20%;
     left: 20%;
     margin: 0 auto;
+}
+.video-headline {
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFF;
+}
+.explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+.explore-link{
+    margin: 0 auto;
+}
+.explore-link:before {
+    content: "";
+    border-top: 1px solid #808080;
+    display: block;
+    position: relative;
+    top: 30px;
+    left: -60px;
+    margin-left: calc(-1*(((100vw - 1170px) / 2) + (960px / 2)));
 
+}
+.explore-link:after{
+    content: "";
+    border-top: 1px solid #808080;
+    display: block;
+    position: relative;
+    top: -30px;
+    right: -60px;
+    margin-right: calc(-1*(((100vw - 1170px) / 2) + (960px / 2)));
+}
+.explore-title {
+    display: block;
+    font: 27px DroidSerif;
+    padding-top: 20px;
 }
 #about {
     height: 100vh;
     background-color: #34495E;
     position: relative;
-
+    padding: 125px 0 100px;
+}
+#about .about-block {
+    max-width: 740px;
+    margin: 0 auto;
+    padding-bottom: 140px;
 }
 #about .about-headline {
-    padding-top: 130px;
     font-size: 45px;
     font-weight: 700;
     text-align: center;
+    padding-bottom: 60px;
+}
+#about .about-text {
+    font-size: 24px;
+    line-height: 1.4;
+}
+#services {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.services-block {
+    width: 245px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.services-item {
+    width: 200px;
+    height: 200px;
+}
+.service-icon {
+    width: 190px;
+    height: 190px;
+    font-size: 6em;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #FFF;
+}
+.services-headline {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.3;
+    padding: 25px 0 30px;
 }
 
