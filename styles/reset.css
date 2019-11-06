@@ -1,20 +1,22 @@
 /*----------------------------------------------------------------------------------//
 //------------------------------RESET DEFAULT STYLES--------------------------------//
 //----------------------------------------------------------------------------------*/
-@import url(http://allfont.ru/allfont.css?fonts=droid-serif);
+@import url(../styles/droidsans.css);
+@import url(../styles/droidserif.css);
 html,body                       { width:100%; height:100%; }
-body                            { padding:0; margin:0; font:20px DroidSerif, Calibri, arial, Tahoma, sans-serif;  color:#333; }
+body                            { padding:0; margin:0; font:20px Droid Sans, Calibri, arial, Tahoma, sans-serif;  color:#FFF; }
 div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,input,textarea {
     padding:0;
     margin:0;
     outline:none;
     list-style:none;
 }
+p                              {font: 20px DroidSerif, Calibri, arial, Tahoma, sans-serif;  color:#FFF; }
 select, input, textarea        { font-size:12px; vertical-align:middle; }
 textarea                       { vertical-align:top; }
 :focus                         { outline:none; }
 input[type=submit]             { cursor:pointer; }
 img, fieldset                  { border:0; }
 table                          { border-collapse:collapse; border-spacing:0; }
-a:link, a:visited              { font:16px Calibri, Tahoma, sans-serif; color:#333; text-decoration:none; }
+a:link, a:visited              { font:16px Droid Sans, Calibri, Tahoma, sans-serif; color:#333; text-decoration:none; }
 a:hover                        { text-decoration:underline; }

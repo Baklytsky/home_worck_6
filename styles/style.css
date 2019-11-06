@@ -1,6 +1,5 @@
 @import url(../styles/reset.css);
-
-
+@import url(../styles/icons.css);
 header {
     background-color: transparent;
     position: fixed;
@@ -57,16 +56,17 @@ video {
     bottom: 0;
 }
 .video-title {
-    max-width: 700px;
+    max-width: 850px;
     font-size: 80px;
     font-weight: 700;
     text-align: center;
     color: #FFF;
     position: absolute;
     top: 40%;
-    right: 25%;
-    left: 25%;
+    right: 20%;
+    left: 20%;
     margin: 0 auto;
+
 }
 #about {
     height: 100vh;
