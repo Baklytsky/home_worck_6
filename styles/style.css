@@ -1,0 +1,83 @@
+@import url(../styles/reset.css);
+
+
+header {
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+header .container {
+    display: flex;
+    padding: 45px;
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 1170px;
+    width: 100%;
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.menu-item {
+    padding: 5px 10px;
+}
+.menu-item a {
+    color: #FFF;
+    font-size: 22px;
+}
+.video {
+    height: 100vh;
+    background-color: #34495E;
+}
+video {
+    width: 100%;
+    height: auto;
+}
+.sixteen-nine {
+    position: relative;
+}
+.sixteen-nine:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 56.25%;
+}
+.sixteen-nine > .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.video-title {
+    max-width: 700px;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFF;
+    position: absolute;
+    top: 40%;
+    right: 25%;
+    left: 25%;
+    margin: 0 auto;
+}
+#about {
+    height: 100vh;
+    background-color: #34495E;
+    position: relative;
+
+}
+#about .about-headline {
+    padding-top: 130px;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
