@@ -88,8 +88,6 @@ video {
     top: 30px;
     left: -60px;
     margin-left: calc(-1*(((100vw - 1170px) / 2) + (960px / 2)));
-    z-index: 2;
-
 }
 .explore-link:after{
     content: "";
@@ -99,7 +97,6 @@ video {
     top: -30px;
     right: -60px;
     margin-right: calc(-1*(((100vw - 1170px) / 2) + (960px / 2)));
-    z-index: 2;
 }
 .explore-title {
     display: block;
@@ -146,14 +143,13 @@ video {
     height: 200px;
 }
 .service-icon {
-    width: 190px;
-    height: 190px;
     font-size: 6em;
     border-radius: 100%;
+    border: 5px solid #FFF;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 5px solid #FFF;
+    padding: 30px;
 }
 .services-headline {
     font-size: 26px;
@@ -163,7 +159,7 @@ video {
 }
 #portfolio {
     height: 100vh;
-    padding: 125px 0 100px;
+    padding-top: 125px;
 }
 .portfolio-headline {
     font-size: 45px;
@@ -183,6 +179,13 @@ video {
 .portfolio-list-item {
     font-size: 30px;
     color: #2C3E50;
+    padding: 5px 10px;
+    transition: all 0.3s linear;
+}
+.portfolio-list-item:hover {
+    color: #FFF;
+    border-radius: 10px;
+    background-color: #2ECC71;
 }
 .portfolio-photo {
     width: 100%;
@@ -190,6 +193,7 @@ video {
     flex-wrap: wrap;
     align-content: space-between;
     margin: 0 auto;
+    padding-bottom: 110px;
 }
 .portfolio-photo-item {
     width: 350px;
@@ -198,6 +202,7 @@ video {
     border: solid 9px #fff;
     outline: solid 1px #E9E9E9;
     position: relative;
+
 }
 .portfolio-holder {
     position: absolute;
@@ -227,6 +232,84 @@ video {
 }
 .portfolio-photo-item:hover .portfolio-holder {
     display: block;
+    opacity: 0.9;
 }
+#team {
+    height: 100vh;
+    padding-top: 120px;
+    background-color: #2980B9;
+}
+.team-headline {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+.team-block {
+}
+.team-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 65px;
+}
+.team-profile-item {
+    width: 290px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 auto;
+}
+.profile-headline {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 4;
+}
+.Cosmo-Kramer:before {
+    content: "";
+    width: 230px;
+    height: 230px;
+    background: url("../img/cosmo_kramer.png") no-repeat center / cover;
+    border: 4px solid #FFF;
+    border-radius: 100%;
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+}
+.George-Constansa:before {
+    content: "";
+    width: 230px;
+    height: 230px;
+    background: url("../img/george_constanza.png") no-repeat center / cover;
+    border: 4px solid #FFF;
+    border-radius: 100%;
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+}
+.profile-icon-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.profile-icons {
+    font-size: 2em;
+    color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 15px;
+    transition: all 0.3s linear;
+}
+.profile-icons:hover {
+    color: #2980B9;
+    background-color: #FFF;
+}
+
 
 
