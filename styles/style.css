@@ -5,11 +5,22 @@ header {
     position: fixed;
     width: 100%;
     z-index: 1;
+    -webkit-transition: background-color 0.3s linear;
+    -o-transition: background-color 0.3s linear;
+    transition: background-color 0.3s linear;
+}
+.animate{
+    background-color:#2ECC71;
+    opacity: 0.95;
 }
 header .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 45px;
     margin: 0 auto;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     max-width: 1170px;
     width: 100%;
@@ -20,7 +31,11 @@ header .container {
     margin: 0 auto;
 }
 .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     height: 100%;
 }
@@ -71,9 +86,18 @@ video {
     color: #FFF;
 }
 .explore {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     padding-top: 120px;
 }
@@ -107,7 +131,7 @@ video {
     height: 100vh;
     background-color: #34495E;
     position: relative;
-    padding: 125px 0 100px;
+    padding: 150px 0 200px;
 }
 #about .about-block {
     max-width: 740px;
@@ -125,17 +149,31 @@ video {
     line-height: 1.4;
 }
 #services {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     padding-bottom: 100px;
 }
 .services-block {
     width: 245px;
     text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 .services-item {
@@ -146,8 +184,14 @@ video {
     font-size: 6em;
     border-radius: 100%;
     border: 5px solid #FFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     padding: 30px;
 }
@@ -159,7 +203,10 @@ video {
 }
 #portfolio {
     height: 100vh;
-    padding-top: 125px;
+    padding: 150px 0 125px;
+}
+.hide {
+    display: none;
 }
 .portfolio-headline {
     font-size: 45px;
@@ -170,8 +217,14 @@ video {
 }
 .portfolio-list {
     width: 690px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin: 0 auto;
     padding-bottom: 110px;
@@ -179,7 +232,12 @@ video {
 .portfolio-list-item {
     font-size: 30px;
     color: #2C3E50;
+    border: none;
+    background-color: #FFF;
+    border-radius: 10px;
     padding: 5px 10px;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
     transition: all 0.3s linear;
 }
 .portfolio-list-item:hover {
@@ -189,8 +247,12 @@ video {
 }
 .portfolio-photo {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -ms-flex-line-pack: justify;
     align-content: space-between;
     margin: 0 auto;
     padding-bottom: 110px;
@@ -224,6 +286,8 @@ video {
     padding: 10px 15px;
     border: 1px solid #FFF;
     border-radius: 30px;
+    -webkit-transition: background, color 0.3s linear;
+    -o-transition: background, color 0.3s linear;
     transition: background, color 0.3s linear;
 }
 .btn:hover {
@@ -236,7 +300,7 @@ video {
 }
 #team {
     height: 100vh;
-    padding-top: 120px;
+    padding-top: 150px;
     background-color: #2980B9;
 }
 .team-headline {
@@ -245,17 +309,31 @@ video {
     text-align: center;
 }
 .team-profile {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     padding-top: 65px;
 }
 .team-profile-item {
     width: 290px;
     text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -ms-flex-line-pack: center;
     align-content: center;
     margin: 0 auto;
 }
@@ -287,8 +365,14 @@ video {
     margin: 0 auto;
 }
 .profile-icon-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     padding: 50px 0;
 }
@@ -297,11 +381,19 @@ video {
     color: #FFF;
     border: 1px solid #FFF;
     border-radius: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     padding: 10px;
     margin: 15px;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
     transition: all 0.3s linear;
 }
 .profile-icons:hover {
@@ -310,7 +402,7 @@ video {
 }
 #contact {
     height: 100vh;
-    padding-top: 120px;
+    padding-top: 150px;
 }
 .contact-headline {
     font-size: 45px;
@@ -325,11 +417,46 @@ video {
     text-align: center;
     padding: 65px 0 80px;
 }
+.contact-conteiner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+input::-webkit-input-placeholder {
+    color: #2C3E50;
+}
+input::-moz-placeholder {
+    color: #2C3E50;
+}
+input:-ms-input-placeholder {
+    color: #2C3E50;
+}
+input::-ms-input-placeholder {
+    color: #2C3E50;
+}
 input::placeholder {
-    color: #2c3e50;
+    color: #2C3E50;
+}
+textarea::-webkit-input-placeholder {
+    color: #2C3E50;
+}
+textarea::-moz-placeholder {
+    color: #2C3E50;
+}
+textarea:-ms-input-placeholder {
+    color: #2C3E50;
+}
+textarea::-ms-input-placeholder {
+    color: #2C3E50;
 }
 textarea::placeholder {
-    color: #2c3e50;
+    color: #2C3E50;
 }
 .contact-input-style {
     width: 370px;
@@ -354,7 +481,76 @@ textarea::placeholder {
     background-color: #FFF;
     border: 2px solid #2ECC71;
 }
-
+.contact-form-block {
+    margin-left: 150px;
+}
+.contact-block {
+    width: 200px;
+    margin-left: 130px;
+}
+address span {
+    display: block;
+}
+.address-headline {
+    font-size: 16px;
+    font-style: normal;
+    color: #2C3E50;
+    font-weight: bold;
+    line-height: 2;
+    margin-top: 45px;
+}
+.address-title {
+    font-size: 20px;
+    font-style: normal;
+    color: #2C3E50;
+    line-height: 1.6;
+    text-align: left;
+}
+.footer-background {
+    background-color: #2C3E50;
+    padding-top: 75px;
+}
+.footer-contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-bottom: 75px;
+}
+li.footer-list a {
+    font-size: 16px;
+    color: #FFF;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    font-style: normal;
+}
+.footer-list  {
+    width: 170px;
+    font-size: 16px;
+    color: #FFF;
+    font-weight: 700;
+    line-height: 1.6;
+    font-style: normal;
+}
+.footer-icons {
+    width: 230px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 250px;
+}
 
 
 

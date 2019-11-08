@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./styles/style.css">
-    <title>Kramer</title>
+    <title>Baklytsky home worck 6</title>
 </head>
 <body>
 <header id="header">
@@ -39,17 +39,17 @@
                 <source src="./img/main-video.ogv" type="video/ogg">
                 <source src="./img/main-video.webm" type="video/webm">
             </video>
-        </div>
-    </div>
-        <div class="video-title">
-            <h2 class="video-headline">Welcome To Kramerica Industries</h2>
-            <div class="explore">
-                <div class="explore-link">
-                    <a href="#services" class="explore-button icon-down-open"></a>
+            <div class="video-title">
+                <h2 class="video-headline">Welcome To Kramerica Industries</h2>
+                <div class="explore">
+                    <div class="explore-link">
+                        <a href="#services" class="explore-button icon-down-open"></a>
+                    </div>
+                    <span class="explore-title">Explore</span>
                 </div>
-                <span class="explore-title">Explore</span>
             </div>
         </div>
+    </div>
 </section>
 <section id="about">
     <div class="container">
@@ -87,49 +87,49 @@
     <div class="container">
         <h2 class="portfolio-headline">Portfolio</h2>
         <ul class="portfolio-list">
-            <li><a href="#" class="portfolio-list-item">All</a></li>
-            <li><a href="#" class="portfolio-list-item">Design</a></li>
-            <li><a href="#" class="portfolio-list-item">Web</a></li>
-            <li><a href="#" class="portfolio-list-item">Illustration</a></li>
-            <li><a href="#" class="portfolio-list-item">Motion</a></li>
+            <li><button class="portfolio-list-item" id="all">All</button></li>
+            <li><button class="portfolio-list-item" id="design">Design</button></li>
+            <li><button class="portfolio-list-item" id="web">Web</button></li>
+            <li><button class="portfolio-list-item" id="illustrator">Illustration</button></li>
+            <li><button class="portfolio-list-item" id="motion">Motion</button></li>
         </ul>
         <ul class="portfolio-photo">
-            <li class="portfolio-photo-item">
+            <li class="portfolio-photo-item web-item motion-item">
                 <img src="img/worck1.jpg" alt="worck1">
                 <div class="portfolio-holder">
                     <h3>Project Title</h3>
                     <a href="" class="btn">View Project</a>
                 </div>
             </li>
-            <li class="portfolio-photo-item">
+            <li class="portfolio-photo-item design-item illustrator-item">
                 <img src="img/worck2.jpg" alt="worck2">
                 <div class="portfolio-holder">
                     <h3>Project Title</h3>
                     <a href="" class="btn">View Project</a>
                 </div>
             </li>
-            <li class="portfolio-photo-item">
+            <li class="portfolio-photo-item web-item">
                 <img src="img/worck3.jpg" alt="worck3">
                 <div class="portfolio-holder">
                     <h3>Project Title</h3>
                     <a href="" class="btn">View Project</a>
                 </div>
             </li>
-            <li class="portfolio-photo-item">
+            <li class="portfolio-photo-item design-item motion-item">
                 <img src="img/worck4.jpg" alt="worck4">
                 <div class="portfolio-holder">
                     <h3>Project Title</h3>
                     <a href="" class="btn">View Project</a>
                 </div>
             </li>
-            <li class="portfolio-photo-item">
+            <li class="portfolio-photo-item design-item">
                 <img src="img/worck5.jpg" alt="worck5">
                 <div class="portfolio-holder">
                     <h3>Project Title</h3>
                     <a href="" class="btn">View Project</a>
                 </div>
             </li>
-            <li class="portfolio-photo-item">
+            <li class="portfolio-photo-item design-item illustrator-item">
                 <img src="img/worck6.jpg" alt="worck6">
                 <div class="portfolio-holder">
                     <h3>Project Title</h3>
@@ -180,12 +180,42 @@
                 </form>
             </div>
             <div class="contact-block">
-
+                <address>
+                    <span class="address-headline">Address</span>
+                    <span class="address-title">129 West 81st Street New York, NY 10024</span>
+                    <span class="address-headline">Email</span>
+                    <span><a href="mailto:giddyup@kramer.com" class="address-title">giddyup@kramer.com</a></span>
+                    <span class="address-headline">Phone</span>
+                    <span><a href="tel:+12125321256" class="address-title">+1 212-532-1256</a></span>
+                </address>
             </div>
         </div>
     </div>
 </section>
+<footer class="footer-background">
+    <div class="container">
+        <a class="logo" href="#">
+            <img src="./img/logo_kramer.png" alt="Logo" class="logo-img">
+        </a>
+        <ul class="footer-contacts">
+            <li class="footer-list">129 West 81st Street New York, NY 10024</li>
+            <li class="footer-list">
+                <a href="mailto:giddyup@kramer.com">giddyup@kramer.com</a>
+                <a href="tel:+12125321256">+1 212-532-1256</a>
+            </li>
+            <li>
+                <ul class="footer-icons">
+                    <li><a href="#" class="icon-twitter profile-icons"></a></li>
+                    <li><a href="#" class="icon-facebook profile-icons"></a></li>
+                    <li><a href="#" class="icon-instagrem profile-icons"></a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
 <script src="./js/custom.js"></script>
 <script src="./js/menu.js"></script>
+<script src="./js/sort_list.js"></script>
 </body>
 </html>
