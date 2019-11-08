@@ -11,8 +11,8 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
     outline:none;
     list-style:none;
 }
-p                              {font: 20px DroidSerif, Calibri, arial, Tahoma, sans-serif; color:#FFF; line-height: 1.4; }
-select, input, textarea        { font-size:12px; vertical-align:middle; }
+p                              { font: 20px DroidSerif, Calibri, arial, Tahoma, sans-serif; color:#FFF; line-height: 1.4; }
+select, input, textarea        { font: 26px DroidSerif, Calibri, arial, Tahoma, sans-serif; vertical-align:middle; }
 textarea                       { vertical-align:top; }
 :focus                         { outline:none; }
 input[type=submit]             { cursor:pointer; }
