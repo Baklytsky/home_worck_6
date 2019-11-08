@@ -5,10 +5,6 @@ header {
     position: fixed;
     width: 100%;
     z-index: 1;
-    transition: background .3s ease;
-}
-.animate{
-    background:black;
 }
 header .container {
     display: flex;
@@ -332,7 +328,7 @@ video {
 .contact-conteiner {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: first;
 }
 input::placeholder {
     color: #2C3E50;
