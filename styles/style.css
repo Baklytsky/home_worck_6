@@ -5,6 +5,10 @@ header {
     position: fixed;
     width: 100%;
     z-index: 1;
+    transition: background .3s ease;
+}
+.animate{
+    background:black;
 }
 header .container {
     display: flex;
@@ -244,8 +248,6 @@ video {
     font-weight: 700;
     text-align: center;
 }
-.team-block {
-}
 .team-profile {
     display: flex;
     justify-content: space-between;
@@ -310,6 +312,83 @@ video {
     color: #2980B9;
     background-color: #FFF;
 }
+#contact {
+    height: 100vh;
+    padding-top: 120px;
+}
+.contact-headline {
+    font-size: 45px;
+    font-weight: 700;
+    color: #2C3E50;
+    text-align: center;
+}
+.contact-text {
+    font-size: 26px;
+    font-weight: 700;
+    color: #2C3E50;
+    text-align: center;
+    padding: 65px 0 80px;
+}
+.contact-conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+input::placeholder {
+    color: #2C3E50;
+}
+textarea::placeholder {
+    color: #2C3E50;
+}
+.contact-input-style {
+    width: 370px;
+    line-height: 1.5;
+    border: none;
+    border-bottom: 2px solid #2ECC71;
+    margin-top: 45px;
+}
+.contact-input li textarea {
+    padding-bottom: 50px;
+}
+.form-button {
+    color: #FFF;
+    padding: 15px 30px;
+    background-color: #2ECC71;
+    border-radius: 30px;
+    border: none;
+    margin-top: 45px;
+}
+.form-button:hover {
+    color: #2ECC71;
+    background-color: #FFF;
+    border: 2px solid #2ECC71;
+}
+.contact-form-block {
+    margin-left: 150px;
+}
+.contact-block {
+    width: 200px;
+    margin-left: 130px;
+}
+address span {
+    display: block;
+}
+.address-headline {
+    font-size: 16px;
+    font-style: normal;
+    color: #2C3E50;
+    font-weight: bold;
+    line-height: 2;
+    margin-top: 45px;
+}
+.address-title {
+    font-size: 20px;
+    font-style: normal;
+    color: #2C3E50;
+    line-height: 1.6;
+    text-align: left;
+}
+
 
 
 
