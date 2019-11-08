@@ -373,7 +373,7 @@ address span {
     font-size: 16px;
     font-style: normal;
     color: #2C3E50;
-    font-weight: 700;
+    font-weight: bold;
     line-height: 2;
     margin-top: 45px;
 }
@@ -383,39 +383,6 @@ address span {
     color: #2C3E50;
     line-height: 1.6;
     text-align: left;
-}
-.footer-background {
-    background-color: #2C3E50;
-    padding-top: 75px;
-}
-.footer-contacts {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 75px;
-}
-li.footer-list a {
-    font-size: 16px;
-    color: #FFF;
-    font-weight: 700;
-    line-height: 1.6;
-    text-align: center;
-    font-style: normal;
-}
-.footer-list  {
-    width: 170px;
-    font-size: 16px;
-    color: #FFF;
-    font-weight: 700;
-    line-height: 1.6;
-    font-style: normal;
-}
-.footer-icons {
-    width: 230px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 250px;
 }
 
 
