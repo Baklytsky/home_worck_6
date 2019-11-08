@@ -5,6 +5,11 @@ header {
     position: fixed;
     width: 100%;
     z-index: 1;
+    transition: background-color 0.3s linear;
+}
+.animate{
+    background-color:#34495E;
+    opacity: 0.9;
 }
 header .container {
     display: flex;
@@ -383,6 +388,39 @@ address span {
     color: #2C3E50;
     line-height: 1.6;
     text-align: left;
+}
+.footer-background {
+    background-color: #2C3E50;
+    padding-top: 75px;
+}
+.footer-contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 75px;
+}
+li.footer-list a {
+    font-size: 16px;
+    color: #FFF;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    font-style: normal;
+}
+.footer-list  {
+    width: 170px;
+    font-size: 16px;
+    color: #FFF;
+    font-weight: 700;
+    line-height: 1.6;
+    font-style: normal;
+}
+.footer-icons {
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 250px;
 }
 
 
