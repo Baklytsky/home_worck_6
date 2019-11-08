@@ -325,11 +325,16 @@ video {
     text-align: center;
     padding: 65px 0 80px;
 }
+.contact-conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: first;
+}
 input::placeholder {
-    color: #2c3e50;
+    color: #2C3E50;
 }
 textarea::placeholder {
-    color: #2c3e50;
+    color: #2C3E50;
 }
 .contact-input-style {
     width: 370px;
@@ -353,6 +358,31 @@ textarea::placeholder {
     color: #2ECC71;
     background-color: #FFF;
     border: 2px solid #2ECC71;
+}
+.contact-form-block {
+    margin-left: 150px;
+}
+.contact-block {
+    width: 200px;
+    margin-left: 130px;
+}
+address span {
+    display: block;
+}
+.address-headline {
+    font-size: 16px;
+    font-style: normal;
+    color: #2C3E50;
+    font-weight: bold;
+    line-height: 2;
+    margin-top: 45px;
+}
+.address-title {
+    font-size: 20px;
+    font-style: normal;
+    color: #2C3E50;
+    line-height: 1.6;
+    text-align: left;
 }
 
 
