@@ -275,7 +275,10 @@ video {
     background-color: #3E5266;
     text-align: center;
     padding-top: 100px;
-    display: none;
+    -webkit-transition-duration: 0.96s;
+    -o-transition-duration: 0.96s;
+    transition-duration: 0.96s;
+    opacity: 0;
 }
 .portfolio-holder h3 {
     padding-bottom: 30px;
@@ -295,7 +298,6 @@ video {
     background-color: #FFF;
 }
 .portfolio-photo-item:hover .portfolio-holder {
-    display: block;
     opacity: 0.9;
 }
 #team {
